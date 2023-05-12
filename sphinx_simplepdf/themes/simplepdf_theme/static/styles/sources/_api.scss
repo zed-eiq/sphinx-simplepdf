@@ -23,14 +23,14 @@ dl.head, dl.get, dl.post, dl.put, dl.delete, dl.patch, dl.options, dl.trace, dl.
     > dd {
         margin-left: 0;
 
-        > p > strong {
-            font-weight: normal;
-        }
+        // > p > strong {
+        //     font-weight: normal;
+        // }
     }
 
-    span.sig-paren, em.property, em.sig-param {
-        font-weight: normal;
-    }
+    // span.sig-paren, em.property, em.sig-param {
+    //     font-weight: normal;
+    // }
 
     code.descname:first-child {
         font-size: 0.9em;

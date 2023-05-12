@@ -4,6 +4,10 @@
     margin-bottom: 24px;
     background: #e7f2fa;
 
+    *>p {
+        margin-bottom: 0;
+    }
+
     .admonition-title {
         color: #fff;
         font-weight: bold;
@@ -18,7 +22,6 @@
             font-family: fontawesome-webfont;
        	    content: "\f06a";
             font-style: normal;
-           	font-weight: normal;
            	line-height: 1;
            	text-decoration: inherit;
             margin-right: 4px;

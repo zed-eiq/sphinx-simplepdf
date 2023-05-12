@@ -1,54 +1,4 @@
 @font-face {
-    font-family: Work Sans Bold;
-    font-weight: bold;
-    src: url(fonts/WorkSans-Bold.ttf);
-}
-
-@font-face {
-    font-family: Work Sans Bold;
-    font-weight: 400;
-    src: url(fonts/WorkSans-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: Work Sans;
-    font-weight: 400;
-    src: url(fonts/WorkSans-Regular.ttf);
-}
-
-@font-face {
-    font-family: Fira Sans;
-    font-weight: 400;
-    src: url(fonts/FiraSans-Regular.otf);
-}
-
-@font-face {
-    font-family: Fira Sans;
-    font-style: italic;
-    font-weight: 400;
-    src: url(fonts/FiraSans-Italic.otf);
-}
-
-@font-face {
-    font-family: Fira Sans;
-    font-weight: 300;
-    src: url(fonts/FiraSans-Light.otf);
-}
-
-@font-face {
-    font-family: Fira Sans;
-    font-style: italic;
-    font-weight: 300;
-    src: url(fonts/FiraSans-LightItalic.otf);
-}
-
-@font-face {
-    font-family: Fira Sans;
-    font-weight: bold;
-    src: url(fonts/FiraSans-Bold.otf);
-}
-
-@font-face {
     font-family: fontawesome-webfont;
     //font-weight: normal;
     //font-style: normal;
@@ -57,19 +7,59 @@
  }
 
 @font-face {
-    font-family: monospace;
-    src: url(fonts/FiraMono-Regular.ttf);
+    font-family: 'Gotham';
+    src: url('https://docs.eclecticiq.com/_static/css/Gotham/Gotham-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
-
-
 @font-face {
-    font-family: monospace;
+    font-family: 'Gotham book';
+    src: url('https://docs.eclecticiq.com/_static/css/Gotham/Gotham-Book.otf') format('opentype');
     font-weight: 400;
-    src: url(fonts/FiraMono-Medium.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('https://docs.eclecticiq.com/_static/css/Gotham/Gotham-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('https://docs.eclecticiq.com/_static/css/Gotham/Gotham-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('https://docs.eclecticiq.com/_static/css/Gotham/Gotham-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('https://docs.eclecticiq.com/_static/css/Gotham/Gotham-BookItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: monospace;
-    font-weight: bold;
-    src: url(fonts/FiraMono-Bold.ttf);
+    font-family: 'Gotham';
+    src: url('https://docs.eclecticiq.com/_static/css/Gotham/Gotham-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('https://docs.eclecticiq.com/_static/css/Gotham/Gotham-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
 }
