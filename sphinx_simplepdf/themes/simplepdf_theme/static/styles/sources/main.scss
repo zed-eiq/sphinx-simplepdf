@@ -79,10 +79,11 @@ html {
   line-height: 1.333rem;
 
   body {
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6, .rubric {
       color: #262626;
       font-weight: 700;
-      line-height: 100%;
+      line-height: 1em;
+      margin-bottom: 1em;
     }
 
     h1 {
@@ -110,21 +111,17 @@ html {
 
     h6 {
       font-size: 1rem;
+    }
 
+    .rubric {
+      font-size: 1rem;
+      text-decoration: underline;
     }
 
     section {
-      h5 {
-        margin-bottom: 1pt;
-      }
       p {
         margin-top: 0;
       }
-    }
-
-    h5, h6 {
-      margin-bottom: 0;
-      padding-bottom: 0;
     }
 
   }

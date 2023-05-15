@@ -17,8 +17,20 @@ table.docutils {
     border-spacing: 0;
 
     td, th {
-        padding: .75rem;
+        padding: .21em;
         vertical-align: top;
+
+
+        p {
+            margin-bottom: 0.21em;
+            line-height: 1.21em;
+            font-size: 0.9em;
+            text-align: left
+        }
+
+        ul {
+            margin-top: 0;
+        }
     }
 
     thead {

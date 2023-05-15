@@ -1,11 +1,12 @@
 .admonition {
-    padding: 12px;
-    line-height: 24px;
-    margin-bottom: 24px;
+    padding: 0.618em;
+    margin-bottom: 0.21em;
     background: #e7f2fa;
 
-    *>p {
+    p {
         margin-bottom: 0;
+        line-height: 1.21em;
+        font-size: 0.9em;
     }
 
     .admonition-title {
@@ -13,8 +14,8 @@
         font-weight: bold;
         display: block;
         margin: -6px;
-        padding: 6px 12px;
-        margin-bottom: 12px;
+        padding: 0.1em 0.618em;
+        margin-bottom: 0.21em;
         background: #6ab0de;
 
         &:before {
